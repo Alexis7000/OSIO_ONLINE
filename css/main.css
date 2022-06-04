@@ -1,0 +1,226 @@
+#ribbon{
+    background-color: rgb(26, 97, 219);
+    background-image: repeating-linear-gradient(45deg,transparent, transparent 25px,rgba(131,21,21,0.5)25px,rgba(131,21,21,0.5)40px);
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top:-40px ;
+}
+
+#birthday{
+    background-color: rgb(26, 97, 219);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#birthday img{
+    position: relative;
+    margin-top: -30px;
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+
+#separator-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+
+#separator-ribbon .content{
+    
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#games{
+    background: rbg(255,255,255);
+    background: url(../img/azu.jpg), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+
+.card1{
+    background-image: url(../img/bac1.jpg);
+    background-size: contain;  
+}
+.card2{
+    background-image: url(../img/bacSpider.jpg);
+    background-color: transparent;
+    background-size: contain;
+}
+.card3{
+    background-image: url(../img/suave.jpg);
+    background-color: transparent;
+    background-size: contain;
+}
+
+.card4{
+    background-image: url(../img/suave2.jpg);
+    background-color: transparent;
+    background-size: contain;
+}
+.card5{
+    background-image: url(../img/bfon.jpg);
+    background-color: transparent;
+    background-size: contain;   
+}
+
+.card6{
+    background-image: url(../img/fondode.jpg);
+    background-color: transparent;
+    background-size: contain;   
+}
+
+.card6{
+    background-image: url(../img/azu.jpg);
+    background-color: transparent;
+    background-size: contain;   
+}
+
+.card7{
+    background-image: url(../img/choco.jpg);
+    background-color: transparent;
+    background-size: contain;   
+}
+
+.card8{
+    background-image: url(../img/cry2.jpg);
+    background-color: transparent;
+    background-size: contain;   
+}
+
+.card9{
+    background-image: url(../img/ultimo.jpg);
+    background-color: transparent;
+    background-size: contain;   
+}
+
+/*desde aca empieza la parte de compras*/
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+ 
+  
+.card-header{
+    background-color: rgb(32, 45, 191);
+}
+.card-head{
+    background-color: rgb(30, 188, 38);
+}
+
+.imagenacolorxd{
+    width: 300px;
+    height: 200px;
+}
+
+/*comezamos con los estilos para el login*/
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+.logode{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+} 
+
+.locode{
+    background-image: url(../img/locode.jpg);
+}
